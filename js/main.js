@@ -94,10 +94,10 @@
   const marqueeInner = document.querySelector('.marquee-inner');
   if (marqueeInner) {
     const items = [
-      'Escuela Oficial Rayados', 'Disciplina y Valores', 'Competencia Real',
-      'Visorías Oficiales', 'Liga de Rayados', 'Copa Internacional Rayados',
-      'Becas Deportivas', 'Becas Académicas', 'Categorías 2007 a 2021',
-      'Sesión de Prueba Gratis', 'Formamos Campeones', 'Monterrey, N.L.'
+      'Escuela Oficial Rayados', '25 Años de Experiencia', 'Disciplina y Valores',
+      'Competencia Real', 'Visorías Oficiales', 'Liga de Rayados',
+      'Copa Internacional Rayados', 'Becas de Descuento', 'Inscripción Gratis este Mes',
+      'Clase Muestra Gratis', 'Formamos Campeones', 'Monterrey, N.L.'
     ];
     const full = [...items, ...items, ...items, ...items];
     marqueeInner.innerHTML = full.map(t => `<span>${t}</span>`).join('');
