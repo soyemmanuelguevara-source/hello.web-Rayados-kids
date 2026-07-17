@@ -906,6 +906,13 @@ button { font-family: inherit; }
   line-height: 1.45;
 }
 
+.stat-num--duo { font-size: clamp(1.7rem, 3.6vw, 2.7rem); }
+.stat-lbl--duo {
+  font-size: clamp(1.7rem, 3.6vw, 2.7rem);
+  font-weight: 900; letter-spacing: -0.05em;
+  color: var(--gold); line-height: 1;
+}
+
 /* ============================================================
    SECTION: SECTORES
    ============================================================ */
